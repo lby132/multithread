@@ -10,7 +10,7 @@ public class Main {
 
         thread.setName("New Worker Thread");
 
-        thread.setPriority(Thread.MAX_PRIORITY);
+//        thread.setPriority(Thread.MAX_PRIORITY);
 
         System.out.println("We are in thread: " + Thread.currentThread().getName() + " before starting a new thread");
         thread.start();
